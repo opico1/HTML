@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.boton{
+    padding: 10%;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: xx-large;
+    background-color: aquamarine;
+    border: 2px black solid;
+    position: relative;
+}
+
+.boton:before{
+    content: 'Pasa por encima';
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    transition: .2s ease;
+    overflow: hidden;
+}
+
+.boton:after{
+    content: '¡Hecho!';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+}
+
+.boton:hover::before{
+    opacity: 0;
+}
+
+.boton:hover::after{
+    padding: 19% 27%;
+    transition: .2s ease;
+    color: white;
+    background-color: green;
+    opacity: 1;
+    text-align: center;
+
+}
+

@@ -1,0 +1,20 @@
+/* (1, 0, 0)*/
+/* (0, 1, 0)*/
+/* (0, 0, 1)*/
+/* (0, 0, 0)*/
+/* con "!important" se le puede dat mayor especificidad al css pero es mejor tratar de evitar por buenas practicas*/
+#h1-id{
+    color: darksalmon;
+}
+
+h1{
+    color: blue;
+}
+
+.h1.clase{      /*la clase tiene mayor especificidad que la etiqueta, no importa la ubicacion*/
+    color: yellow;
+}
+
+p{
+    color: red;
+}

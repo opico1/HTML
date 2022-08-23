@@ -1,0 +1,50 @@
+.colores
+{
+    color: orangered;
+}
+
+.color-hexadecimal
+{
+    color: #BCE784;
+}
+
+.color-rgb
+{
+    color: rgb(66, 90, 201);
+}
+
+.color-rgba
+{
+    color: rgba rgba(228, 55, 199, 0.753);
+}
+
+.fondo
+{
+    background-color: chartreuse;
+    background-image: url("https://png.pngtree.com/background/20210709/original/pngtree-shading-background-abstract-colorful-background-colorful-art-picture-image_938007.jpg");
+    background-position: right top;
+}
+
+/* Tamaños*/
+.ancho
+{
+    background-color: coral;
+    width: 100px;
+}
+
+.alto
+{
+    background-color: aquamarine;
+    height: 200px;
+}
+
+.tarjeta
+{
+    border-style: solid;
+    border-color: rgb(86, 231, 123);
+    border-width: 5px;
+    /*border-top: none;*/
+    padding: 10px 20px; /* padding es el margen no visible en entre contenido y borde*/
+    /*padding: 10px 20px 30px 40px;*/
+    margin: 20px 40px;
+}

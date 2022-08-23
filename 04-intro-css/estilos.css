@@ -1,0 +1,45 @@
+h1
+{
+    color: rgb(255, 0, 0);
+}
+
+
+/*Estoy probando colores y fuentes*/
+p
+{
+    color: blue;
+    font-size: 16pt;
+}
+
+/* # se utiliza para darle informacion a los id=*/
+#primera-noticia
+{
+    color: green;
+    font-size: 12pt;
+}
+
+#segunda-noticia
+{
+    color: brown;
+}
+
+/* . se utiliza para darle informacion a los class*/
+
+.encabezado
+{
+    
+    font-size: 24pt;
+    text-transform: uppercase;
+}
+
+/* * se utiliza para darle informacion a todas las etiquetas*/
+
+/*
+{
+    color: yellow;
+}
+*/
+.autor, .fecha, .ubicacion
+{
+    text-decoration: underline;
+}

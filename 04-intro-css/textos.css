@@ -1,0 +1,12 @@
+/*Lo mejor al importar librerias desde internet es hacer el llamado directo en el css para no ensuciar el html*/
+
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400;600&display=swap');
+
+
+html
+{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: larger;
+    font-weight: 300;
+    font-style: italic;
+}
