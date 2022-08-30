@@ -1,0 +1,23 @@
+.contenedor{
+    display: flex;
+    background-color: yellow;
+    gap: 0.5rem;
+    padding: 0.5rem;
+    min-height: 5rem;
+    /* Eje principal*/
+    justify-content: space-around;
+    /*Eje secundario*/
+    align-items: center;
+    /*flex-direction: column;*/
+    flex-wrap: wrap; /*Envolver o mover la etiqueta cuando se mueve la pantalla*/
+}
+
+.item{
+    background-color: salmon;
+    padding: 0.25rem;
+    width: 10rem;
+}
+
+.item2{
+    align-self: stretch;
+}
